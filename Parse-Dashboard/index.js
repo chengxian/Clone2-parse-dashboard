@@ -13,14 +13,14 @@ const express = require('express');
 const parseDashboard = require('./app');
 
 const program = require('commander');
-program.option('--appId [appId]', 'the app Id of the app you would like to manage.');
-program.option('--masterKey [masterKey]', 'the master key of the app you would like to manage.');
-program.option('--serverURL [serverURL]', 'the server url of the app you would like to manage.');
-program.option('--appName [appName]', 'the name of the app you would like to manage. Optional.');
+program.option('--appId [appId]', 'Zt403CdFuSMcleHPFefa9oaA95duQu0qk5cHa2DB');
+program.option('--masterKey [masterKey]', 'jnbfvKKuRPbtSpNb9iSsQsuqnCtHLlCfY0jOx5Us');
+program.option('--serverURL [serverURL]', 'http://clone2.herokuapp.com/parse');
+program.option('--appName [appName]', 'Clone2');
 program.option('--config [config]', 'the path to the configuration file');
 program.option('--host [host]', 'the host to run parse-dashboard');
 program.option('--port [port]', 'the port to run parse-dashboard');
-program.option('--allowInsecureHTTP [allowInsecureHTTP]', 'set this flag when you are running the dashboard behind an HTTPS load balancer or proxy with early SSL termination.');
+program.option('--allowInsecureHTTP [allowInsecureHTTP]', true);
 
 program.parse(process.argv);
 
