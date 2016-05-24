@@ -1,0 +1,10 @@
+{
+  "apps": [
+    {
+      "serverURL": "http://clone2.herokuapp.com/parse",
+      "appId": "Zt403CdFuSMcleHPFefa9oaA95duQu0qk5cHa2DB",
+      "masterKey": "jnbfvKKuRPbtSpNb9iSsQsuqnCtHLlCfY0jOx5Us",
+      "appName": "Clone"
+    }
+  ]
+}
