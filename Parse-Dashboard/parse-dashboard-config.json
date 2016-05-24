@@ -6,5 +6,11 @@
       "masterKey": "jnbfvKKuRPbtSpNb9iSsQsuqnCtHLlCfY0jOx5Us",
       "appName": "Clone"
     }
+  ],
+  "users": [
+    {
+      "user":"user1",
+      "pass":"password"
+    }
   ]
 }
